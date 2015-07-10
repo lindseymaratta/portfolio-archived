@@ -1,0 +1,38 @@
+.page-scroll a {
+	color: #444 !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
+ {
+	background: #fff !important;
+	border: 2px solid #12DD94 !important;
+}
+
+#about {
+	color:#444;
+	background:#fff;
+}
+#about hr
+.obsessions {
+	text-align: center;
+}
+
+.footer-above {
+	background: -webkit-linear-gradient(#12DD94, #9C6DE0); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#12DD94, #9C6DE0); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#12DD94, #19C6DE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#12DD94, #9C6DE0); /* Standard syntax */
+
+}
+
+footer .footer-below {
+	background-color: #444;
+}
+
+.navbar-toggle {
+	background-color:#444;
+}
+
+.scroll-top > .btn-primary {
+	background-color: #12DD94;
+	border: none;
+}
