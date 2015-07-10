@@ -24,6 +24,21 @@
 
 }
 
+<<<<<<< HEAD
+=======
+h1, h2,  hr, .star-primary {
+	color: #444;
+}
+
+hr.star-primary {
+	border-color: #444;
+	color: #444;
+}
+
+hr.star-primary:after {
+	color: #444;
+}
+>>>>>>> refs/heads/master
 footer .footer-below {
 	background-color: #444;
 }
