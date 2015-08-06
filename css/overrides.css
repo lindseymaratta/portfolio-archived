@@ -17,17 +17,23 @@
 }
 
 .footer-above {
+	min-height: 600px;
+	padding-top: 50%;
 	background: -webkit-linear-gradient(#12DD94, #9C6DE0); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#12DD94, #9C6DE0); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#12DD94, #19C6DE); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#12DD94, #9C6DE0); /* Standard syntax */
 
 }
-
+footer .footer-above {
+	padding-top: 130px;
+	padding-bottom: 50px;
+}
 
 h1, h2,  hr, .star-primary {
 	color: #444;
 }
+
 
 hr.star-primary {
 	border-color: #444;
@@ -37,7 +43,12 @@ hr.star-primary {
 hr.star-primary:after {
 	color: #444;
 }
-
+h3 {
+	color: #444;
+}
+.inverse {
+	color:white;
+}
 footer .footer-below {
 	background-color: #444;
 }
@@ -57,4 +68,19 @@ footer .footer-below {
 
 .center{
 	text-align: center;
+}
+ul{
+	list-style-type: none;
+	margin:20px;
+	padding:0;
+}
+li{
+	list-style-type: none;
+	text-decoration: none;
+}
+h2{
+	margin-bottom: 30px !important;
+}
+.padding {
+	padding: 30px;
 }
