@@ -17,7 +17,7 @@
 }
 
 .footer-above {
-	min-height: 600px;
+	min-height: 620px;
 	padding-top: 50%;
 	background: -webkit-linear-gradient(#12DD94, #9C6DE0); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#12DD94, #9C6DE0); /* For Opera 11.1 to 12.0 */
@@ -26,7 +26,7 @@
 
 }
 footer .footer-above {
-	padding-top: 130px;
+	padding-top: 160px;
 	padding-bottom: 50px;
 }
 
@@ -83,4 +83,31 @@ h2{
 }
 .padding {
 	padding: 30px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link{
+	max-width: 550px;
+}
+
+
+@media (min-width: 970px){
+
+
+.container {
+    width: 750px;
+}
+@media (min-width: 1200px){
+
+
+.container {
+    width: 970px;
+}
+
+h1, h2, h3, h4, h5, p {
+	color: #444;
 }
